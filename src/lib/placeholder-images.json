@@ -3,44 +3,62 @@
     {
       "id": "heroCarousel1",
       "description": "First image for hero carousel",
-      "imageUrl": "https://images.unsplash.com/photo-1556761175-5973dc0f32e7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxidXNpbmVzcyUyMHRlYW18ZW58MHx8fHwxNzYyMTk2MjY3fDA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "business team"
+      "imageUrl": "https://images.unsplash.com/photo-1704652070195-61e76e1466db?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxvZmZpY2UlMjB0ZWFtd29ya3xlbnwwfHx8fDE3NjE0MTM2NTV8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "office teamwork"
     },
     {
       "id": "heroCarousel2",
       "description": "Second image for hero carousel",
-      "imageUrl": "https://images.unsplash.com/photo-1519389950473-47ba0277781c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHx0ZWNobm9sb2d5fGVufDB8fHx8MTc2MjE5NjI5M3ww&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "technology teamwork"
+      "imageUrl": "https://images.unsplash.com/photo-1605647540924-852290f6b0d5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxtb2Rlcm4lMjB0ZWNobm9sb2d5fGVufDB8fHx8MTc2MTM1Nzg3N3ww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "modern technology"
     },
     {
       "id": "heroCarousel3",
       "description": "Third image for hero carousel",
-      "imageUrl": "https://images.unsplash.com/photo-1522071820081-009f0129c71c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHx0ZWFtfGVufDB8fHx8MTc2MjEwODU5OXww&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "professional team"
+      "imageUrl": "https://images.unsplash.com/photo-1541746972996-4e0b0f43e02a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxzZXJ2ZXIlMjByb29tfGVufDB8fHx8MTc2MTM0OTI5NHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "server room"
     },
     {
       "id": "aboutMe",
       "description": "Picture for the about me section",
-      "imageUrl": "https://images.unsplash.com/photo-1552664730-d307ca884978?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxidXNpbmVzcyUyMG1lZXRpbmd8ZW58MHx8fHwxNzYyMTA4NjI2fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1616587656977-ac36a5a430bc?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxidXNpbmVzcyUyMG1lZXRpbmd8ZW58MHx8fHwxNzYxNDEzNjU1fDA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "business meeting"
     },
     {
       "id": "projectOne",
       "description": "Thumbnail for project one",
-      "imageUrl": "https://images.unsplash.com/photo-1635183607544-bf69187cc310?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxkYXNoYm9hcmQlMjB1aXxlbnwwfHx8fDE3NjEzODgyMzV8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1677617587258-685aaf1b1e1c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxkYXNoYm9hcmQlMjB1aXxlbnwwfHx8fDE3NjEzODgyMzV8MA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "dashboard ui"
     },
     {
       "id": "projectTwo",
       "description": "Thumbnail for project two",
-      "imageUrl": "https://images.unsplash.com/photo-1514575110897-1253ff7b2ccb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxtb2JpbGUlMjBhcHB8ZW58MHx8fHwxNzYxNDA1MTAwfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1523206489230-c012c64b2b48?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxtb2JpbGUlMjBhcHB8ZW58MHx8fHwxNzYxNDA1MTAwfDA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "mobile app"
     },
     {
       "id": "projectThree",
       "description": "Thumbnail for project three",
-      "imageUrl": "https://images.unsplash.com/photo-1688561807440-8a57dfa77ee3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxlLWNvbW1lcmNlfGVufDB8fHx8MTc2MTQwNDE1OXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1688561808434-886a6dd97b8c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8ZS1jb21tZXJjZXxlbnwwfHx8fDE3NjE0MDQxNTl8MA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "e-commerce"
+    },
+    {
+      "id": "serviceUiUx",
+      "description": "Image for UI/UX Design service",
+      "imageUrl": "https://images.unsplash.com/photo-1581291518633-83b4ebd1d83e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHx1c2VyJTIwaW50ZXJmYWNlfGVufDB8fHx8MTc2MTQwNDkwMXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "user interface"
+    },
+    {
+      "id": "serviceWebDev",
+      "description": "Image for Web Development service",
+      "imageUrl": "https://images.unsplash.com/photo-1555066931-bf19f8fd1085?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxjb2RpbmclMjBsYXB0b3B8ZW58MHx8fHwxNzYxMzkzMTk1fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "coding laptop"
+    },
+    {
+      "id": "serviceAppDev",
+      "description": "Image for App Development service",
+      "imageUrl": "https://images.unsplash.com/photo-1666389785670-9a2912750277?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxtb2JpbGUlMjBkZXNpZ258ZW58MHx8fHwxNzYxNDEzNjU1fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "mobile design"
     }
   ]
 }

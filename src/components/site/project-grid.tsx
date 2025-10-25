@@ -56,22 +56,6 @@ export function ProjectGrid({ projects }: ProjectGridProps) {
               <p className="text-sm text-primary-foreground/80">{project.category}</p>
               <CardTitle className="font-headline text-xl text-primary-foreground">{project.title}</CardTitle>
             </CardContent>
-            <CardFooter className="p-4 pt-0 flex gap-2">
-              {project.githubUrl && (
-                <a href={project.githubUrl} target="_blank" rel="noopener noreferrer">
-                  <Button variant="outline" size="sm" className="gap-2 rounded-full">
-                    <Github className="h-4 w-4" /> GitHub
-                  </Button>
-                </a>
-              )}
-              {project.liveUrl && (
-                <a href={project.liveUrl} target="_blank" rel="noopener noreferrer">
-                  <Button size="sm" className="gap-2 rounded-full">
-                    <Globe className="h-4 w-4" /> Live Demo
-                  </Button>
-                </a>
-              )}
-            </CardFooter>
           </Card>
         ))}
       </div>

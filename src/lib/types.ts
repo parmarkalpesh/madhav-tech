@@ -24,22 +24,26 @@ export type Statistic = {
   label: string;
 };
 
+type ImageDetails = {
+  src: string;
+  width: number;
+  height: number;
+  hint: string;
+};
+
+
 export type Service = {
   icon: LucideIcon;
   title: string;
   description: string;
+  image: ImageDetails;
 };
 
 export type Project = {
   id: number;
   title: string;
   category: 'Web' | 'App' | 'UI/UX';
-  image: {
-    src: string;
-    width: number;
-    height: number;
-    hint: string;
-  };
+  image: ImageDetails;
   githubUrl?: string;
   liveUrl?: string;
 };

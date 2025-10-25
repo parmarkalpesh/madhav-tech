@@ -25,20 +25,20 @@ export const heroData = {
   heroImages: [
     {
       src: getImage('heroCarousel1')?.imageUrl || '',
-      width: 500,
-      height: 500,
+      width: 1920,
+      height: 1080,
       hint: getImage('heroCarousel1')?.imageHint || '',
     },
     {
       src: getImage('heroCarousel2')?.imageUrl || '',
-      width: 500,
-      height: 500,
+      width: 1920,
+      height: 1080,
       hint: getImage('heroCarousel2')?.imageHint || '',
     },
     {
       src: getImage('heroCarousel3')?.imageUrl || '',
-      width: 500,
-      height: 500,
+      width: 1920,
+      height: 1080,
       hint: getImage('heroCarousel3')?.imageHint || '',
     }
   ] as HeroImage[]
@@ -60,21 +60,43 @@ export const aboutData = {
   }
 };
 
+const serviceUiUxImage = getImage('serviceUiUx');
+const serviceWebDevImage = getImage('serviceWebDev');
+const serviceAppDevImage = getImage('serviceAppDev');
+
 export const servicesData: Service[] = [
   {
     icon: Brush,
     title: 'UI/UX Design',
     description: 'Crafting intuitive and beautiful user interfaces that enhance user experience and engagement.',
+    image: {
+      src: serviceUiUxImage?.imageUrl || '',
+      width: 600,
+      height: 400,
+      hint: serviceUiUxImage?.imageHint || ''
+    }
   },
-{
+  {
     icon: Code,
     title: 'Web Development',
     description: 'Building responsive and performant websites and web applications using modern stacks.',
+    image: {
+      src: serviceWebDevImage?.imageUrl || '',
+      width: 600,
+      height: 400,
+      hint: serviceWebDevImage?.imageHint || ''
+    }
   },
   {
     icon: Smartphone,
     title: 'App Development',
     description: 'Developing mobile applications for iOS and Android platforms with a focus on usability.',
+    image: {
+      src: serviceAppDevImage?.imageUrl || '',
+      width: 600,
+      height: 400,
+      hint: serviceAppDevImage?.imageHint || ''
+    }
   },
 ];
 
@@ -93,8 +115,6 @@ export const projectsData: Project[] = [
       height: 400,
       hint: projectOneImage?.imageHint || ''
     },
-    githubUrl: '#',
-    liveUrl: '#',
   },
   {
     id: 2,
@@ -106,8 +126,6 @@ export const projectsData: Project[] = [
       height: 400,
       hint: projectTwoImage?.imageHint || ''
     },
-    githubUrl: '#',
-    liveUrl: '#',
   },
   {
     id: 3,
@@ -119,8 +137,6 @@ export const projectsData: Project[] = [
       height: 400,
       hint: projectThreeImage?.imageHint || ''
     },
-    githubUrl: '#',
-    liveUrl: '#',
   },
 ];
 
