@@ -1,5 +1,4 @@
 import Image from 'next/image';
-import { Download } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { heroData, socialLinks } from '@/lib/data';
 import { SectionWrapper } from './section-wrapper';
@@ -22,11 +21,10 @@ const Hero = () => {
             {heroData.description}
           </p>
           <div className="flex items-center justify-center md:justify-start gap-3 pt-4">
-            <a href="/cv.pdf" download>
-              <Button size="lg" className="rounded-full font-bold">
-                <Download className="mr-2 h-5 w-5" />
-                Download CV
-              </Button>
+            <a href="#contact">
+                <Button size="lg" className="rounded-full font-bold">
+                  Contact Us
+                </Button>
             </a>
             <div className="flex items-center gap-2">
               {socialLinks.map((link) => (

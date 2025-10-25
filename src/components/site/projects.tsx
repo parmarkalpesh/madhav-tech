@@ -6,7 +6,7 @@ import { ProjectGrid } from './project-grid';
 const Projects = () => {
   return (
     <SectionWrapper id="projects">
-      <SectionHeading title="Latest Projects" subtitle="My Portfolio" />
+      <SectionHeading title="Latest Projects" subtitle="Our Work" />
       <ProjectGrid projects={projectsData} />
     </SectionWrapper>
   );
