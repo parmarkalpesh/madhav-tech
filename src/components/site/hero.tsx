@@ -10,7 +10,7 @@ const Hero = () => {
       <div className="grid md:grid-cols-2 gap-12 items-center">
         <div className="space-y-4 text-center md:text-left">
           <div className="space-y-2">
-            <p className="text-xl font-medium">Hello, I'm</p>
+            <p className="text-xl font-medium">Hello, we are</p>
             <h1 className="font-headline text-5xl md:text-6xl font-extrabold tracking-tight">
               {heroData.name}
             </h1>

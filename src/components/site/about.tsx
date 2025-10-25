@@ -7,13 +7,13 @@ import { SectionHeading } from './section-heading';
 const About = () => {
   return (
     <SectionWrapper id="about">
-      <SectionHeading title="About Me" subtitle="My Introduction" />
+      <SectionHeading title="About Us" subtitle="Our Introduction" />
       <div className="grid md:grid-cols-2 gap-12 lg:gap-16 items-center">
         <div className="relative group flex justify-center">
           <div className="relative w-[300px] h-[300px] sm:w-[400px] sm:h-[400px] lg:w-[450px] lg:h-[450px]">
             <Image
               src={aboutData.aboutImage.src}
-              alt="About me image"
+              alt="About us image"
               width={aboutData.aboutImage.width}
               height={aboutData.aboutImage.height}
               className="rounded-2xl object-cover w-full h-full transition-transform duration-500 group-hover:scale-105"

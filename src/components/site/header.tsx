@@ -46,7 +46,7 @@ const Header = () => {
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex h-20 items-center justify-between">
           <Link href="/" className="font-headline text-2xl font-bold text-primary transition-transform hover:scale-105">
-            Madhav<span className="text-foreground">.</span>
+            MadhvTech<span className="text-foreground">.</span>
           </Link>
           
           <nav className="hidden md:flex items-center space-x-6 text-base">
@@ -71,8 +71,8 @@ const Header = () => {
                 <div className="flex flex-col h-full p-6">
                     <div className="flex items-center justify-between mb-8">
                          <Link href="/" className="font-headline text-2xl font-bold text-primary">
-                            Madhav<span className="text-foreground">.</span>
-                        </Link> hero
+                            MadhvTech<span className="text-foreground">.</span>
+                        </Link>
                         <SheetTrigger asChild>
                             <Button variant="ghost" size="icon">
                                 <X className="h-6 w-6" />

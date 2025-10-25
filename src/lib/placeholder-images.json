@@ -2,7 +2,7 @@
   "placeholderImages": [
     {
       "id": "heroProfile",
-      "description": "Profile picture of Madhav",
+      "description": "Profile picture for MadhvTech",
       "imageUrl": "https://images.unsplash.com/photo-1522075469751-3a6694fb2f61?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxwcm9maWxlJTIwcG9ydHJhaXR8ZW58MHx8fHwxNzYxMzYzODI1fDA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "profile portrait"
     },

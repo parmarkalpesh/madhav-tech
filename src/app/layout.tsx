@@ -4,8 +4,8 @@ import { Toaster } from "@/components/ui/toaster"
 import { cn } from '@/lib/utils';
 
 export const metadata: Metadata = {
-  title: 'MadhavTech Portfolio',
-  description: "Welcome to the portfolio of Madhav, a passionate full-stack developer creating beautiful and functional user experiences.",
+  title: 'MadhvTech Portfolio',
+  description: "Welcome to MadhvTech, a company passionate about creating beautiful and functional user experiences.",
 };
 
 export default function RootLayout({

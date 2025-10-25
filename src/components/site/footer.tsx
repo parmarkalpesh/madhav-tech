@@ -8,9 +8,9 @@ const Footer = () => {
         <div className="flex flex-col md:flex-row justify-between items-center gap-8 text-center md:text-left">
           <div>
             <Link href="/" className="font-headline text-2xl font-bold text-primary transition-transform hover:scale-105 inline-block">
-              Madhav<span className="text-foreground">.</span>
+              MadhvTech<span className="text-foreground">.</span>
             </Link>
-            <p className="mt-2 text-foreground/80">Full-stack Developer</p>
+            <p className="mt-2 text-foreground/80">Full-stack Development</p>
           </div>
           <ul className="flex flex-wrap justify-center gap-x-6 gap-y-2">
             {navLinks.map((link) => (
@@ -37,7 +37,7 @@ const Footer = () => {
           </div>
         </div>
         <div className="mt-8 pt-8 border-t text-center text-foreground/60 text-sm">
-          <p>&copy; {new Date().getFullYear()} Madhav. All rights reserved.</p>
+          <p>&copy; {new Date().getFullYear()} MadhvTech. All rights reserved.</p>
         </div>
       </div>
     </footer>
