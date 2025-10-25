@@ -19,9 +19,9 @@ export const socialLinks: SocialLink[] = [
 ];
 
 export const heroData = {
-  name: "MadhvTech",
-  title: "Full-stack Development",
-  description: "We are a passionate company with experience in building web applications with modern technologies. We love to create beautiful and functional user experiences.",
+  name: "MadhavTech",
+  title: "Global IT Solutions",
+  description: "We are a passionate IT company with experience in building web applications with modern technologies. We love to create beautiful and functional user experiences for an international client base.",
   profileImage: {
     src: getImage('heroProfile')?.imageUrl || '',
     width: 400,
@@ -32,7 +32,7 @@ export const heroData = {
 
 export const aboutData = {
   title: "About Us",
-  description: "We are a Full-stack development company with over 3 years of experience. We enjoy building everything from small business sites to rich interactive web apps. If you are a business seeking a web presence or an employer looking to hire, you can get in touch with us here.",
+  description: "We are a global IT solutions provider with over 3 years of experience. We enjoy building everything from small business sites to rich interactive web apps. If you are a business seeking a web presence or an employer looking to hire, you can get in touch with us here.",
   stats: [
     { icon: Award, value: '03+', label: 'Years experience' },
     { icon: Briefcase, value: '20+', label: 'Projects completed' },
@@ -114,13 +114,13 @@ export const contactData: ContactInfo[] = [
     {
         icon: Mail,
         title: 'Email',
-        value: 'info@madhvtech.com',
-        href: 'mailto:info@madhvtech.com'
+        value: 'info@madhavtech.com',
+        href: 'mailto:info@madhavtech.com'
     },
     {
         icon: MessageSquare,
         title: 'Messenger',
-        value: 'MadhvTech',
+        value: 'MadhavTech',
         href: '#'
     },
     {

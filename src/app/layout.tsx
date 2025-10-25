@@ -2,10 +2,23 @@ import type { Metadata } from 'next';
 import './globals.css';
 import { Toaster } from "@/components/ui/toaster"
 import { cn } from '@/lib/utils';
+import { Poppins, Open_Sans } from 'next/font/google';
+
+const fontHeadline = Poppins({
+  subsets: ['latin'],
+  weight: ['400', '500', '600', '700', '800'],
+  variable: '--font-headline',
+});
+
+const fontBody = Open_Sans({
+  subsets: ['latin'],
+  weight: ['400', '700'],
+  variable: '--font-body',
+});
 
 export const metadata: Metadata = {
-  title: 'MadhvTech',
-  description: "Welcome to MadhvTech, a company passionate about creating beautiful and functional user experiences.",
+  title: 'MadhavTech',
+  description: "Welcome to MadhavTech, an IT company passionate about creating beautiful and functional user experiences for a global audience.",
 };
 
 export default function RootLayout({
@@ -15,12 +28,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className="dark">
-      <head>
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
-        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&family=PT+Sans:wght@400;700&display=swap" rel="stylesheet" />
-      </head>
-      <body className={cn("font-body antialiased", "min-h-screen bg-background")}>
+      <body className={cn(fontBody.variable, fontHeadline.variable, "font-body antialiased", "min-h-screen bg-background")}>
         {children}
         <Toaster />
       </body>

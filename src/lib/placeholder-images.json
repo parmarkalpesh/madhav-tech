@@ -2,15 +2,15 @@
   "placeholderImages": [
     {
       "id": "heroProfile",
-      "description": "Profile picture for MadhvTech",
-      "imageUrl": "https://images.unsplash.com/photo-1522075469751-3a6694fb2f61?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxwcm9maWxlJTIwcG9ydHJhaXR8ZW58MHx8fHwxNzYxMzYzODI1fDA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "profile portrait"
+      "description": "Profile picture for MadhavTech",
+      "imageUrl": "https://images.unsplash.com/photo-1522071820081-009f0129c71c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHx0ZWFtfGVufDB8fHx8MTc2MjEwODU5OXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "professional team"
     },
     {
       "id": "aboutMe",
       "description": "Picture for the about me section",
-      "imageUrl": "https://images.unsplash.com/photo-1590212151175-e58edd96185b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxkZXNrJTIwc2V0dXB8ZW58MHx8fHwxNzYxNDAyMTY5fDA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "desk setup"
+      "imageUrl": "https://images.unsplash.com/photo-1552664730-d307ca884978?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxidXNpbmVzcyUyMG1lZXRpbmd8ZW58MHx8fHwxNzYyMTA4NjI2fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "business meeting"
     },
     {
       "id": "projectOne",
