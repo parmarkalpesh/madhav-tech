@@ -16,6 +16,7 @@ export type HeroImage = {
   width: number;
   height: number;
   hint: string;
+  alt: string;
 }
 
 export type Statistic = {

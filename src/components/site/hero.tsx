@@ -8,17 +8,27 @@ import {
   CarouselNext,
   CarouselPrevious,
 } from '@/components/ui/carousel';
+import Autoplay from "embla-carousel-autoplay"
 
 const Hero = () => {
   return (
     <section id="home" className="relative w-full h-[75vh] md:h-[85vh] text-white overflow-hidden">
-      <Carousel className="w-full h-full" opts={{ loop: true }}>
+      <Carousel 
+        className="w-full h-full" 
+        opts={{ loop: true }}
+        plugins={[
+          Autoplay({
+            delay: 4000,
+            stopOnInteraction: false,
+          }),
+        ]}
+      >
         <CarouselContent className="w-full h-full">
           {heroData.heroImages.map((image, index) => (
             <CarouselItem key={index} className="w-full h-full relative">
               <Image
                 src={image.src}
-                alt={`${heroData.name} - ${index + 1}`}
+                alt={image.alt}
                 fill
                 priority={index === 0}
                 className="w-full h-full object-cover"

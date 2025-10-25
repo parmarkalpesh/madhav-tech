@@ -17,8 +17,9 @@ const fontBody = Open_Sans({
 });
 
 export const metadata: Metadata = {
-  title: 'MadhavTech',
-  description: "Welcome to MadhavTech, an IT company passionate about creating beautiful and functional user experiences for a global audience.",
+  title: 'MadhavTech | Global IT Solutions & Web Development',
+  description: "MadhavTech provides top-tier global IT solutions, including web and app development, and UI/UX design. We partner with international clients to deliver innovative and scalable technology services.",
+  keywords: ['IT solutions', 'web development', 'app development', 'UI/UX design', 'international clients', 'global software company', 'technology services', 'offshore development'],
 };
 
 export default function RootLayout({

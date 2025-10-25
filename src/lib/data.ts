@@ -27,18 +27,21 @@ export const heroData = {
       width: 1920,
       height: 1080,
       hint: getImage('heroCarousel1')?.imageHint || '',
+      alt: 'Diverse team collaborating in a modern office environment.'
     },
     {
       src: getImage('heroCarousel2')?.imageUrl || '',
       width: 1920,
       height: 1080,
       hint: getImage('heroCarousel2')?.imageHint || '',
+      alt: 'Abstract visualization of global data networks and technology.'
     },
     {
       src: getImage('heroCarousel3')?.imageUrl || '',
       width: 1920,
       height: 1080,
       hint: getImage('heroCarousel3')?.imageHint || '',
+      alt: 'Secure and modern data center server room.'
     }
   ] as HeroImage[]
 };
