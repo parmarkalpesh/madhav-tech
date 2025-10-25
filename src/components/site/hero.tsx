@@ -2,6 +2,13 @@ import Image from 'next/image';
 import { Button } from '@/components/ui/button';
 import { heroData, socialLinks } from '@/lib/data';
 import { SectionWrapper } from './section-wrapper';
+import {
+  Carousel,
+  CarouselContent,
+  CarouselItem,
+  CarouselNext,
+  CarouselPrevious,
+} from '@/components/ui/carousel';
 
 const Hero = () => {
   return (
@@ -38,18 +45,30 @@ const Hero = () => {
           </div>
         </div>
         <div className="relative flex justify-center">
-          <div className="w-[280px] h-[280px] md:w-[400px] md:h-[400px] rounded-full overflow-hidden bg-primary/20 relative group">
-            <Image
-              src={heroData.profileImage.src}
-              alt={heroData.name}
-              width={heroData.profileImage.width}
-              height={heroData.profileImage.height}
-              priority
-              className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
-              data-ai-hint={heroData.profileImage.hint}
-            />
-            <div className="absolute inset-0 rounded-full border-4 border-primary/30"></div>
-          </div>
+          <Carousel className="w-full max-w-md" opts={{ loop: true }}>
+            <CarouselContent>
+              {heroData.heroImages.map((image, index) => (
+                <CarouselItem key={index}>
+                  <div className="p-1">
+                    <div className="w-full aspect-square rounded-2xl overflow-hidden bg-primary/20 relative group">
+                       <Image
+                        src={image.src}
+                        alt={`${heroData.name} - ${index + 1}`}
+                        width={image.width}
+                        height={image.height}
+                        priority={index === 0}
+                        className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
+                        data-ai-hint={image.hint}
+                      />
+                      <div className="absolute inset-0 rounded-2xl border-4 border-primary/30"></div>
+                    </div>
+                  </div>
+                </CarouselItem>
+              ))}
+            </CarouselContent>
+            <CarouselPrevious className="left-[-50px]" />
+            <CarouselNext className="right-[-50px]" />
+          </Carousel>
         </div>
       </div>
     </SectionWrapper>

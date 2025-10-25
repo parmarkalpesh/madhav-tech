@@ -11,6 +11,13 @@ export type SocialLink = {
   label: string;
 };
 
+export type HeroImage = {
+  src: string;
+  width: number;
+  height: number;
+  hint: string;
+}
+
 export type Statistic = {
   icon: LucideIcon;
   value: string;

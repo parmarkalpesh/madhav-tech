@@ -1,4 +1,4 @@
-import type { NavLink, SocialLink, Statistic, Service, Project, ContactInfo } from './types';
+import type { NavLink, SocialLink, Statistic, Service, Project, ContactInfo, HeroImage } from './types';
 import { Github, Linkedin, Dribbble, Code, Brush, Smartphone, Mail, MessageSquare, Phone, Award, Briefcase, Users } from 'lucide-react';
 import { PlaceHolderImages } from './placeholder-images';
 
@@ -22,12 +22,26 @@ export const heroData = {
   name: "MadhavTech",
   title: "Global IT Solutions",
   description: "We are a passionate IT company with experience in building web applications with modern technologies. We love to create beautiful and functional user experiences for an international client base.",
-  profileImage: {
-    src: getImage('heroProfile')?.imageUrl || '',
-    width: 400,
-    height: 400,
-    hint: getImage('heroProfile')?.imageHint || '',
-  }
+  heroImages: [
+    {
+      src: getImage('heroCarousel1')?.imageUrl || '',
+      width: 500,
+      height: 500,
+      hint: getImage('heroCarousel1')?.imageHint || '',
+    },
+    {
+      src: getImage('heroCarousel2')?.imageUrl || '',
+      width: 500,
+      height: 500,
+      hint: getImage('heroCarousel2')?.imageHint || '',
+    },
+    {
+      src: getImage('heroCarousel3')?.imageUrl || '',
+      width: 500,
+      height: 500,
+      hint: getImage('heroCarousel3')?.imageHint || '',
+    }
+  ] as HeroImage[]
 };
 
 export const aboutData = {

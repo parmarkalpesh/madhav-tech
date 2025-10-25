@@ -1,8 +1,20 @@
 {
   "placeholderImages": [
     {
-      "id": "heroProfile",
-      "description": "Profile picture for MadhavTech",
+      "id": "heroCarousel1",
+      "description": "First image for hero carousel",
+      "imageUrl": "https://images.unsplash.com/photo-1556761175-5973dc0f32e7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxidXNpbmVzcyUyMHRlYW18ZW58MHx8fHwxNzYyMTk2MjY3fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "business team"
+    },
+    {
+      "id": "heroCarousel2",
+      "description": "Second image for hero carousel",
+      "imageUrl": "https://images.unsplash.com/photo-1519389950473-47ba0277781c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHx0ZWNobm9sb2d5fGVufDB8fHx8MTc2MjE5NjI5M3ww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "technology teamwork"
+    },
+    {
+      "id": "heroCarousel3",
+      "description": "Third image for hero carousel",
       "imageUrl": "https://images.unsplash.com/photo-1522071820081-009f0129c71c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHx0ZWFtfGVufDB8fHx8MTc2MjEwODU5OXww&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "professional team"
     },
