@@ -53,8 +53,8 @@ export function ProjectGrid({ projects }: ProjectGridProps) {
               </div>
             </CardHeader>
             <CardContent className="p-4 relative -mt-12 z-10">
-              <p className="text-sm text-primary-foreground/80">{project.category}</p>
-              <CardTitle className="font-headline text-xl text-primary-foreground">{project.title}</CardTitle>
+              <p className="text-sm text-white/80">{project.category}</p>
+              <CardTitle className="font-headline text-xl text-white">{project.title}</CardTitle>
             </CardContent>
           </Card>
         ))}

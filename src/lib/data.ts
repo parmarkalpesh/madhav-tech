@@ -143,8 +143,8 @@ export const contactData: ContactInfo[] = [
     {
         icon: Mail,
         title: 'Email',
-        value: 'info@madhavtech.com',
-        href: 'mailto:info@madhavtech.com'
+        value: 'madhavwebservice@gmail.com',
+        href: 'mailto:madhavwebservice@gmail.com'
     },
     {
         icon: Phone,
