@@ -1,5 +1,5 @@
 import type { NavLink, SocialLink, Statistic, Service, Project, ContactInfo, HeroImage } from './types';
-import { Github, Linkedin, Dribbble, Code, Brush, Smartphone, Mail, MessageSquare, Phone, Award, Briefcase, Users } from 'lucide-react';
+import { Github, Linkedin, Dribbble, Code, Brush, Smartphone, Mail, MessageSquare, Phone, Award, Briefcase, Users, Instagram } from 'lucide-react';
 import { PlaceHolderImages } from './placeholder-images';
 
 const getImage = (id: string) => PlaceHolderImages.find(img => img.id === id);
@@ -13,9 +13,8 @@ export const navLinks: NavLink[] = [
 ];
 
 export const socialLinks: SocialLink[] = [
-  { href: '#', icon: Linkedin, label: 'LinkedIn' },
-  { href: '#', icon: Github, label: 'GitHub' },
-  { href: '#', icon: Dribbble, label: 'Dribbble' },
+  { href: 'https://www.linkedin.com/company/madhav-tech/', icon: Linkedin, label: 'LinkedIn' },
+  { href: 'https://www.instagram.com/madhav.tech_/', icon: Instagram, label: 'Instagram' },
 ];
 
 export const heroData = {
@@ -148,15 +147,9 @@ export const contactData: ContactInfo[] = [
         href: 'mailto:info@madhavtech.com'
     },
     {
-        icon: MessageSquare,
-        title: 'Messenger',
-        value: 'MadhavTech',
-        href: '#'
-    },
-    {
         icon: Phone,
         title: 'WhatsApp',
-        value: '+123 456 7890',
-        href: 'https://wa.me/1234567890'
+        value: '+91 7016223029',
+        href: 'https://wa.me/917016223029'
     }
 ];
