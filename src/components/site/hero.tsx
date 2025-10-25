@@ -1,3 +1,5 @@
+'use client';
+
 import Image from 'next/image';
 import { Button } from '@/components/ui/button';
 import { heroData, socialLinks } from '@/lib/data';
@@ -5,23 +7,23 @@ import {
   Carousel,
   CarouselContent,
   CarouselItem,
-  CarouselNext,
-  CarouselPrevious,
 } from '@/components/ui/carousel';
 import Autoplay from "embla-carousel-autoplay"
+import { useRef } from 'react';
 
 const Hero = () => {
+  const plugin = useRef(
+    Autoplay({ delay: 4000, stopOnInteraction: false })
+  )
+
   return (
     <section id="home" className="relative w-full h-[75vh] md:h-[85vh] text-white overflow-hidden">
       <Carousel 
         className="w-full h-full" 
         opts={{ loop: true }}
-        plugins={[
-          Autoplay({
-            delay: 4000,
-            stopOnInteraction: false,
-          }),
-        ]}
+        plugins={[plugin.current]}
+        onMouseEnter={plugin.current.stop}
+        onMouseLeave={plugin.current.reset}
       >
         <CarouselContent className="w-full h-full">
           {heroData.heroImages.map((image, index) => (
